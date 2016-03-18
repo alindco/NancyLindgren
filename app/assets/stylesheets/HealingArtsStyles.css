@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-color:#53859a;
+/*background-image:url(images/BGgrad.jpg);*/
+}
+
+#page-wrap	{
+	width: 960px;
+	margin: 50px auto;
+background-color:#bce2f2;
+	position:relative;
+	}
+
+div#Page{
+
+ background-image:url(/assets/cherryBlossoms.jpg); 
+ background-repeat:no-repeat; 
+
+ height:650px; 
+ width:960px; 
+ color:#000; 
+/* position:absolute;
+top: 10px; 
+left:10px; */
+}
+
+div#Content {	color:#000;
+	font-family: 'CenturyGothicRegular', sans-serif;
+	font-size:14px;
+	padding:10px;
+	height:auto;}
+
+div#contactinfo {
+	/*position:absolute;left: 0px;
+	top: 635px;*/
+	width:960px;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#660099;
+	text-align:center;
+	background-image:url(/assets/whiteTrans60.png);
+}
+
+div#header {
+background:url(/assets/Header.png) no-repeat;
+height:93px;
+/*position:absolute;
+left:10px;
+z-index:15*/
+}
+
+
+/* Typography CSS
+----------------------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: 'CenturyGothicRegular';
+	src: url('GOTHIC.eot');
+	src: local('Century Gothic'), local('CenturyGothic'), url('GOTHIC.woff') format('woff'), url('GOTHIC.ttf') format('truetype'), url('GOTHIC.svg#CenturyGothic') format('svg');
+}
+
+@font-face {
+	font-family: 'WorstveldSlingBoldObliqueRegu';
+	src: url('worstveldslingboldoblique-webfont.eot');
+	src: local('☺'), url('worstveldslingboldoblique-webfont.woff') format('woff'), url('worstveldslingboldoblique-webfont.ttf') format('truetype'), url('worstveldslingboldoblique-webfont.svg#webfonttapOz5X6') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.titles {
+font-family: 'WorstveldSlingBoldObliqueRegu', sans-serif;
+font-size:32px;
+line-height:20px;
+color:#006600;
+}
+
+.titles a {
+text-decoration:none;
+color:#006600;
+}
+
+.content {
+	position:absolute;
+	top:158px;
+	/*background-image:url(images/blackTrans60.png);*/
+	color:#000;
+	/*	font-family: 'CenturyGothicRegular', sans-serif;*/
+	font-size:14px;
+	height:auto;
+}
