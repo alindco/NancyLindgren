@@ -47,7 +47,7 @@ ddsmoothmenu.init({
 
 
 <style type="text/css">
-div#Page { background-image:url(images/waterDrops.jpg);}
+div#Page { background-image:url(/assets/waterDrops.jpg);}
 </style>
 
 
@@ -96,36 +96,7 @@ color:#451b03;}
 <body >
 <div id="page-wrap">
 <div id="Page" >
-<div id="header"><a href="./index.html"><img src="images/spacer.gif" alt="Complementary Healing Arts"  width="379" height="100" border="0" align="left"/></a>
-<div id="smoothmenu1" class="ddsmoothmenu">
-		<ul >
-    	<li><a href='Body.html' >Body</a></li>
-        
-        <li><a href="Mind.html" >Mind</a></li>
-         
-         <li><a href="Spirit.html" >Spirit</a></li>
-      
-      <li><a href="#">Energy Healing</a>
-        <ul >
-       	 <li><a href='EmotionalFreedomTechnique.html' >Emotional Freedom Technique</a></li>
-   		  <li><a href='FlowerEssenceTherapy.html'>Flower Essence Therapy</a></li>
-   		  <li><a href='CranioSacralTherapy.html'>CranioSacral Therapy-CST</a></li>
-          <li><a href='HouseClearingHouseBlessing.html'>House clearing</a></li>
-        </ul></li>
-       
-       <li><a href="#">Ministry</a>
-       	<ul >
-       		<li><a href='Weddings.html'>Weddings</a></li>
-          <li><a href='Memorials.html'>Funerals & memorials</a></li>
-          <li><a href='Baptisms.html'>Baptisms & baby blessings</a></li>
-       	</ul></li>
-       
-       <li><a href="Testimonials.html" >Testimonials</a></li>
-       <li><a href="AboutNancyLindgren.html">About</a></li>
-    </ul>
-  </div>
-<!-- end navigation -->
-</div><!-- end header --> 
+<%= render "menu" %>
 <div id="Content">
 
 <!-- InstanceBeginEditable name="Content" -->
@@ -133,7 +104,7 @@ color:#451b03;}
 
 
 
-<div style="width:300px; left:648px; top:97px; position:absolute;"><img src="images/candle.png" width="300" height="215" /></div>
+<div style="width:300px; left:648px; top:97px; position:absolute;"><img src="/assets/candle.png" width="300" height="215" /></div>
 
 <div class="content" style="width:400px; left:40px; top:100px"> <p class="titles">Testimonials</p>
   <div id="slider"><div class="cushycms"><ul ><li>
@@ -196,7 +167,9 @@ color:#451b03;}
 <!-- InstanceEndEditable --></div>
 
 </div><!--end Content  div-->
-<div id="contactinfo">Contact Nancy at the Lyn-Lake Building, 621 West Lake Street # 209 Minneapolis, MN 55408 &middot; 612-868-2160</div>
+
+
+<%= render "footer" %>
 
    </div><!-- end page wrap -->
   

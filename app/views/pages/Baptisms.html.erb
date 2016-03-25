@@ -42,50 +42,21 @@ ddsmoothmenu.init({
 <style type="text/css"></style>
 <!-- InstanceBeginEditable name="head" -->
 <style type="text/css">
-div#Page { background-image:url(images/RockPath.jpg);}
+div#Page { background-image:url(/assets/RockPath.jpg);}
 </style><!-- InstanceEndEditable -->
 </head>
 
 <body >
 <div id="page-wrap">
 <div id="Page" >
-<div id="header"><a href="./index.html"><img src="images/spacer.gif" alt="Complementary Healing Arts"  width="379" height="100" border="0" align="left"/></a>
-<div id="smoothmenu1" class="ddsmoothmenu">
-		<ul >
-    	<li><a href='Body.html' >Body</a></li>
-        
-        <li><a href="Mind.html" >Mind</a></li>
-         
-         <li><a href="Spirit.html" >Spirit</a></li>
-      
-      <li><a href="#">Energy Healing</a>
-        <ul >
-       	 <li><a href='EmotionalFreedomTechnique.html' >Emotional Freedom Technique</a></li>
-   		  <li><a href='FlowerEssenceTherapy.html'>Flower Essence Therapy</a></li>
-   		  <li><a href='CranioSacralTherapy.html'>CranioSacral Therapy-CST</a></li>
-          <li><a href='HouseClearingHouseBlessing.html'>House clearing</a></li>
-        </ul></li>
-       
-       <li><a href="#">Ministry</a>
-       	<ul >
-       		<li><a href='Weddings.html'>Weddings</a></li>
-          <li><a href='Memorials.html'>Funerals & memorials</a></li>
-          <li><a href='Baptisms.html'>Baptisms & baby blessings</a></li>
-       	</ul></li>
-       
-       <li><a href="Testimonials.html" >Testimonials</a></li>
-       <li><a href="AboutNancyLindgren.html">About</a></li>
-    </ul>
-  </div>
-<!-- end navigation -->
-</div><!-- end header --> 
+<%= render 'menu' %>
 <div id="Content">
 
 <!-- InstanceBeginEditable name="Content" -->
 
 
    <div class="content" style="width:367px; left:531px; top:65px;">
-     <p align="right"><strong><img src="images/baptism.png" width="250" height="167" /></strong></p>
+     <p align="right"><strong><img src="/assets/baptism.png" width="250" height="167" /></strong></p>
      <div class="cushycms"><p align="left" class="titles">Baptisms &amp; baby
        blessings</p>
      <p>A child entering your
@@ -99,12 +70,12 @@ div#Page { background-image:url(images/RockPath.jpg);}
        your baby’s unique celebration as you honor, celebrate and welcome your
        child into your family.</p></div><!--end cms -->
    </div>
-   <div class="content" style="width:200px; left:41px; top:295px;"><img src="images/RevNancy.png" /></div>
+   <div class="content" style="width:200px; left:41px; top:295px;"><img src="/assets/RevNancy.png" /></div>
 
 <!-- InstanceEndEditable --></div>
 
 </div><!--end Content  div-->
-<div id="contactinfo">Contact Nancy at the Lyn-Lake Building, 621 West Lake Street # 209 Minneapolis, MN 55408 &middot; 612-868-2160</div>
+<%= render "footer" %>
 
    </div><!-- end page wrap -->
   

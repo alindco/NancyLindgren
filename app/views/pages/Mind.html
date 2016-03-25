@@ -42,7 +42,7 @@ ddsmoothmenu.init({
 <style type="text/css"></style>
 <!-- InstanceBeginEditable name="head" -->
 <style type="text/css">
-div#Page { background-image:url(images/waterDrop2.jpg);}
+div#Page { background-image:url(/assets/waterDrop2.jpg);}
 </style>
 <!-- InstanceEndEditable -->
 </head>
@@ -50,36 +50,8 @@ div#Page { background-image:url(images/waterDrop2.jpg);}
 <body >
 <div id="page-wrap">
 <div id="Page" >
-<div id="header"><a href="./index.html"><img src="images/spacer.gif" alt="Complementary Healing Arts"  width="379" height="100" border="0" align="left"/></a>
-<div id="smoothmenu1" class="ddsmoothmenu">
-		<ul >
-    	<li><a href='Body.html' >Body</a></li>
-        
-        <li><a href="Mind.html" >Mind</a></li>
-         
-         <li><a href="Spirit.html" >Spirit</a></li>
-      
-      <li><a href="#">Energy Healing</a>
-        <ul >
-       	 <li><a href='EmotionalFreedomTechnique.html' >Emotional Freedom Technique</a></li>
-   		  <li><a href='FlowerEssenceTherapy.html'>Flower Essence Therapy</a></li>
-   		  <li><a href='CranioSacralTherapy.html'>CranioSacral Therapy-CST</a></li>
-          <li><a href='HouseClearingHouseBlessing.html'>House clearing</a></li>
-        </ul></li>
-       
-       <li><a href="#">Ministry</a>
-       	<ul >
-       		<li><a href='Weddings.html'>Weddings</a></li>
-          <li><a href='Memorials.html'>Funerals & memorials</a></li>
-          <li><a href='Baptisms.html'>Baptisms & baby blessings</a></li>
-       	</ul></li>
-       
-       <li><a href="Testimonials.html" >Testimonials</a></li>
-       <li><a href="AboutNancyLindgren.html">About</a></li>
-    </ul>
-  </div>
-<!-- end navigation -->
-</div><!-- end header --> 
+<%= render "menu" %><!-- end navigation -->
+ 
 <div id="Content">
 
 <!-- InstanceBeginEditable name="Content" -->
@@ -95,15 +67,15 @@ with care &amp; commitment, wherever you are on your path.</p>
      <p>With her extensive training as a counselor and experience as a minister, she will assist you in better
        understanding yourself and help bring clarity to your issues. </p>
      <p>Nancy empowers you by seeing and acknowledging your authentic gifts.</p></div><!--end cms -->
-   </div>
+   </div> <!-- content class-->
 
-<!-- InstanceEndEditable --></div>
+<!-- InstanceEndEditable --></div> 
 
 </div><!--end Content  div-->
 <div id="contactinfo">Contact Nancy at the Lyn-Lake Building, 621 West Lake Street # 209 Minneapolis, MN 55408 &middot; 612-868-2160</div>
 
    </div><!-- end page wrap -->
-  
+  </div> <!-- end page -->
 
 </body>
 <!-- InstanceEnd --></html>
